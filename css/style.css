@@ -1,0 +1,101 @@
+.iconos{
+	display: flex;
+	justify-content: start;
+}
+
+.contenido{
+	margin-top: 50px;
+	padding-top: 40px;
+}
+
+@media only screen and (max-width: 768px){
+	.iconos{
+		justify-content: center;
+	}
+
+	.contenido{
+		margin-top: 7rem;
+		padding-top: 4rem;
+	}
+}
+
+h1{
+	font-family: 'Georgia', serif;
+	color: black;
+}
+
+h3{
+	font-family: Georgia, serif;
+	color: black;
+}
+
+h4{
+	font-family: Georgia, serif;
+}
+
+.movil{
+	font-family: 'Lato' , sans-serif;
+}
+
+.text-gold{
+	color: gold;
+	font-size: 1.2rem;
+	font-family: Georgia, serif;
+}
+
+.logos2{
+	box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem black;
+}
+
+.transform{
+	background-color: white;
+}
+
+.card .transform{
+	background-color: rebeccapurple;
+}
+.transform:hover{
+	transition: background-color .5s ease-in-out;
+	background-color: black;
+
+}
+
+.transform p{
+	color: white;
+}
+
+.collapse-carousel{
+	background-color: black;
+}
+
+.collapse-carousel:hover{
+	transition: background-color .5s ease-in-out;
+	background-color: rebeccapurple;
+}
+
+.collapse-carousel h3:hover{
+	transition: color .5s ease-in-out;
+	color: white;
+}
+
+.radius{
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	padding: 0;
+}
+
+.radius2{
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	padding: 0;
+}
+
+@media only  screen and (max-width: 768px){
+.radius, .radius2{
+	border-radius: 30px;
+	padding: 1rem;
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-bottom: 1rem;
+}
+}
